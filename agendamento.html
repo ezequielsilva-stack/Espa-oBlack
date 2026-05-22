@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="./estilos/agendar.css">
+    <script src="agendar.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Seu estilo começa aqui</h1>
+        <nav>
+            <a href="index.html">Voltar</a>
+            <a href="colecao.html">Nossa Coleção</a>
+        </nav>
+    </header>
+  <main>
+
+        <!-- SERVIÇOS -->
+        <section class="servicos">
+            <h2>Nossos Serivoços</h2>
+            <div class="cards-servico">
+                <div class="item">
+                    <h3>Corte</h3>
+                    <p>R$35</p>
+                </div>
+                <div class="item">
+                    <h3>Corte e Sobrancelha</h3>
+                    <p>R$45</p>
+                </div>
+                <div class="item">
+                    <h3>Sobrancelha</h3>
+                    <p>R$15</p>
+                </div>
+                <div class="item">
+                    <h3>Nevou</h3>
+                    <p>R$70</p>
+                </div>
+                <div class="item">
+                    <h3>Pintura</h3>
+                    <p>R$90</p>
+                </div>
+                <div class="item">
+                    <h3>Corte Social</h3>
+                    <p>R$30</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FUNCIONÁRIOS -->
+        <section class="funcionarios">
+
+            <h2>Nossos barbeiros</h2>
+
+            <div class="cards-barbeiros">
+
+                <div class="container">
+                    <div class="flip">
+
+                        <div class="frente">
+                            <h3>João</h3>
+                        </div>
+
+                        <div class="tras">
+                            <p>5 anos de experiência</p>
+                         </div>
+
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="flip">
+
+                        <div class="frente">
+                            <h3>Carlos</h3>
+                        </div>
+
+                        <div class="tras">
+                            <p>Especialista em fade</p>
+                        </div>
+
+                     </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- AGENDAMENTO -->
+       <section class="agendamento">
+            <h2>Agende Aqui</h2>
+            <form action="">
+                <select name="escolha" id="escolha">
+                    <option value="text">Escolha o serviço</option>
+                    <option value="text">Corte</option>
+                    <option value="text">Corte e Sobrancelha</option>
+                    <option value="text">Sobrancelha</option>
+                    <option value="text">Nevou</option>
+                    <option value="text">Pintura</option>
+                    <option value="text">Corte Social</option>
+                </select>
+                <input type="date">
+                <div class="horários">
+                    <button type="button" class="hora">09:00</button>
+                    
+                    <button type="button" class="hora">10:00</button>
+
+                    <button type="button" class="hora">12:00</button>
+                </div>
+                <div class="funcionariosagenda">
+                    <button type="button" class="barbeiro">Jõao</button>
+                    <button type="button" class="barbeiro">Carlos</button>
+                </div>
+                <button type="submit">Confirmar</button>
+            </form>
+       </section>
+    </main>
+</body>
+</html>
